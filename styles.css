@@ -1,0 +1,138 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: linear-gradient(120deg, #83BFF3 0%, #FFFFFF 100%);
+}
+
+nav {
+    background: linear-gradient(#D3D3D3 0%, #979797 100%);
+    box-shadow: 0 -10px 10px 10px #000A;
+    position: sticky;
+    width: 100%;
+    height: 48px;
+    display: flex;
+}
+
+nav > p {
+    font-size: 24px;
+    margin: 12px;
+    margin-top: 10px;
+    height: 100%;
+    font-weight: bold;
+}
+
+nav > ul {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+}
+
+nav > ul > li {
+    padding: 10px 8px;;
+    flex-basis: auto;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: #000;
+    text-decoration: none;
+    padding: 3px 9px;
+    border-radius:9px;
+    background-color: #FFF6;
+    box-shadow: 0 3px 12px -4px #000A inset;
+}
+
+nav > ul > li:hover > ul {
+    transform: translateY(0);
+    clip-path: inset(0 0 0 0);
+    box-shadow: 0 6px 6px -6px #000F inset;
+    transition: 0.4s;
+}
+
+.bar_menu {
+    background-color: #D3D3D3;
+    box-shadow: 0 206px 6px -106px #000F inset;
+    position: fixed;
+    z-index: -20;
+    top: 48px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-100px);
+    clip-path: inset(100px 0 100% 0 );
+    border-bottom-right-radius:6px;
+    border-bottom-left-radius:6px;
+    min-width: 100px;
+    padding: 8px;
+    gap: 9px;
+    transition: 0.2s;
+    transition-delay: 0.1s;
+}
+
+.commentaire {
+    font-size: 15px;
+    color: #333;
+    padding: 0;
+}
+
+.bar_menu > li {
+    list-style-type: none;
+    display: flex
+}
+
+.bar_menu > li > a {
+    padding: 5px 30px;
+    padding-left: 15px;
+    transition: 0.2s;
+    border-radius: 3px;
+    flex-grow: 1;
+    transition: 0.2s;
+}
+
+.bar_menu > li > a:hover {
+    background-color: #0001;
+    box-shadow: 0 0 5px 0 #0003 inset;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.zone_info {
+    color: #FFF;
+    background-color: #000C;
+    display: flex;
+    width: min-content;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    border-radius: 12px;
+    box-shadow: 0 0 32px 8px #0003;
+    overflow:hidden;
+}
+
+.zone_info > img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 0 32px 8px #0008;
+}
+
+.zone_info > ul {
+    margin: 0;
+    padding-top: 16px;
+    width: 300px;
+}
+
+table > * {
+    text-align: left;
+}
