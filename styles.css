@@ -131,7 +131,15 @@ h1 {
 .zone_info > ul {
     margin: 0;
     padding-top: 16px;
-    width: 300px;
+    width: 200px;
+}
+
+.zone_info > ul > li {
+    padding-bottom: 8px;
+}
+
+.center {
+    margin: auto;
 }
 
 table > * {
