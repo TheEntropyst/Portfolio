@@ -1,4 +1,4 @@
-.zone_info {
+.zone-info {
     color: #FFF;
     background-color: #000C;
     display: flex;
@@ -11,23 +11,58 @@
     overflow:hidden;
 }
 
-.zone_info > img {
+.zone-info > img {
     width: 150px;
     height: 200px;
     object-fit: cover;
     box-shadow: 0 0 32px 8px #0008;
 }
 
-.zone_info > ul {
+.zone-info > ul {
     margin: 0;
     padding-top: 16px;
     width: 200px;
 }
 
-.zone_info > ul > li {
+.zone-info > ul > li {
     padding-bottom: 8px;
 }
 
 table > * {
     text-align: left;
+}
+
+.toolbox {
+    color: #FFF;
+    background-color: #000C;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding: 4px;
+    border-radius: 12px;
+    box-shadow: 0 0 32px 8px #0003;
+    overflow:hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.toolbox > section {
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbox > section > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 32px 8px #0008;
+    border-radius: 8px;
+}
+
+.toolbox > section > b {
+    width: 150px;
+    text-align: center;
 }

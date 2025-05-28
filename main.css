@@ -6,8 +6,9 @@ body {
 
 nav {
     background: linear-gradient(#D3D3D3 0%, #979797 100%);
-    box-shadow: 0 -10px 10px 10px #000A;
+    box-shadow: 0 -30px 30px 30px #000A;
     position: sticky;
+    top: 0;
     width: 100%;
     height: 48px;
     display: flex;
